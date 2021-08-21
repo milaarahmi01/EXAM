@@ -6,14 +6,14 @@ import java.util.ArrayList;
 import javax.swing.*;
 import javax.swing.border.*;
 
-public class Nomor4 extends JPanel
+public class Nomor5 extends JPanel
 {
 
     private final JPanel barPanel;
     private final JPanel labelPanel;
     private final List<Bar> bars = new ArrayList<Bar>();
 
-    public Nomor4() {
+    public Nomor5() {
         setBorder(new EmptyBorder(10, 10, 10, 10));
         setLayout(new BorderLayout());
 
@@ -122,7 +122,7 @@ public class Nomor4 extends JPanel
 
 
     public static void main(String[] args) {
-        Nomor4 panel = new Nomor4();
+        Nomor5 panel = new Nomor5();
         panel.addBar("Java", 1000, Color.RED);
         panel.addBar("Oracle",550 , Color.BLUE);
         panel.addBar("SAP", 710, Color.GREEN);
